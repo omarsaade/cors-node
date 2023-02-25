@@ -7,3 +7,4 @@ module.exports = function (req, res, next) {
   res.setHeader("Access-Control-Allow-Methods", "GET,POST,PATCH,DELETE");
   next();
 };
+
